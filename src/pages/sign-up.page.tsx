@@ -135,7 +135,7 @@ function SignUpPage() {
             <p className="text-xs sm:text-sm text-gray-600">
               You already have account?{" "}
               <a
-                href="/"
+                href="/sign-in"
                 className="text-blue-600 hover:text-blue-500 font-medium"
               >
                 Sign in 
