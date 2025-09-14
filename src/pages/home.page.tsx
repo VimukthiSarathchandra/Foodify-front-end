@@ -1,7 +1,9 @@
+import HeroGrid from "@/components/HeroGrid";
+
 function HomePage() {
 return(
   <>
-  <h1>body</h1>
+  <HeroGrid />
   </>
 );
 }
