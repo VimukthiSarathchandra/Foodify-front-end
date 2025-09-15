@@ -11,7 +11,7 @@ function Commitment() {
   return (
     <>
       <div className="flex flex-col space-y-5 mt-10 mb-15 px-4 md:px-10 lg:px-30">
-        <h3 className="text-[#FE724C]">COMMITMENT</h3>
+        <h3 className="text-[#FE724C] tracking-widest">COMMITMENT</h3>
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold">Why we are good for you</h1>
         <p className="text-gray-500">
           We are committed to providing you with the best possible service{" "}
