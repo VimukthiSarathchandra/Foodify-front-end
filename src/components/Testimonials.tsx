@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 function Testimonials() {
   return (
     <div className="flex md:flex-row flex-col mb-1 md:mb-15 ">
-      <div className="  object-cover">
+      <div className="object-cover hidden md:block">
         <img
           src="/assets/images/testimonials.png"
           alt="Product"
@@ -37,6 +37,25 @@ function Testimonials() {
           they provide.
         </p>
       </div>
+
+      <div className="object-cover md:hidden mb-10">
+        <img
+          src="/assets/images/testimonials.png"
+          alt="Product"
+          className="object-cover rounded-tr-[100px] w-11/12 "
+        />
+        <div className="flex ">
+          <div className="w-2/12"></div>
+          <div className="bg-[#DFE1E6]  w-9/12  rounded-bl-full rounded-br-full pt-3 pb-3 pl-3 md:pt-7 md:pb-7 md:pl-7">
+            <h3 className="text-[#FE724C] ml-7">Mason Jonas</h3>
+
+            <p className=" text-gray-500 text-sm ml-7">
+              Human Resource Development
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
