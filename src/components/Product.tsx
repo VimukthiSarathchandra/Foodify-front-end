@@ -8,7 +8,7 @@ function Product() {
         <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-center">
           Menus for tofday
         </h1>
-        <p className="text-gray-500 text-center">
+        <p className="text-gray-500 text-center mb-10">
           Taste the freshness in every bite, carefully crafted for your day.
         </p>
         <div className="flex md:flex-row flex-col gap-4">
