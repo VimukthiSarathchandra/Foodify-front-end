@@ -3,6 +3,7 @@ import Commitment from "@/components/Commitment";
 import Subscribe from "@/components/Subscribe";
 import Product from "@/components/Product";
 import Process from "@/components/Process";
+import Testimonials from "@/components/Testimonials";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <HeroGrid />
       <Commitment />
       <Process />
+      <Testimonials />
       <Product />
       <Subscribe />
     </>
