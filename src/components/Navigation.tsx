@@ -23,7 +23,7 @@ function Navigation() {
               {isMenuOpen ? <X className="text-[#FE724C]" size={25} /> : <Menu className="text-[#FE724C]" size={25} />}
             </button>
 
-          <h2 className="text-2xl font-bold">Foodify</h2>
+          <Link className="text-2xl font-bold" to="/">Foodify</Link>
         </div>
           <div className="flex items-center gap-4 lg:gap-7 ">
             <div className="items-center gap-7 lg:flex ">
