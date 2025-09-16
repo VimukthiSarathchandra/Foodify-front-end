@@ -1,4 +1,4 @@
-import { categories } from "@/data";
+
 import { Menu } from "lucide-react";
 import CategoriesDropdown from "./CategoriesDropdown";
 import { Button } from "./ui/button";
