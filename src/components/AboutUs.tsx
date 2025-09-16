@@ -9,7 +9,7 @@ import { Star } from "lucide-react";
 function AboutUs() {
   return (
     <>
-     <div className="flex md:flex-row flex-col md:mb-15 mt-10 mb-15 px-4 md:px-10 lg:px-30 ">
+     <div className="flex md:flex-row justify-center flex-col md:mb-15 mt-10 mb-15 px-4 md:px-10 lg:px-30 ">
        
         <div className="md:w-2/3 w-full md:mt-5 p-7  ">
           <h3 className="text-[#FE724C] tracking-widest mb-3 ">About Us</h3>
@@ -22,7 +22,7 @@ function AboutUs() {
           </p>
         </div>
 
-        <div className="flex md:justify-end items-center justify-center md:items-start md:w-1/3 w-full">
+        <div className="flex items-center justify-center md:items-start md:w-1/3 w-full">
         <Card>
               <CardHeader>
                 <div className="flex justify-center mb-4">

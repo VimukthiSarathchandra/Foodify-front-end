@@ -1,8 +1,14 @@
+import Subscribe from "@/components/Subscribe";
+import Menu from "@/components/Menu";
+import MenuProductItem from "@/components/MenuProductItem";
+
 function FoodsPage() {
   return (
-    <div>
-      <h1>Foods</h1>
-    </div>
+    <>
+    <MenuProductItem />
+    <Menu />
+    <Subscribe />
+    </>
   );
 }
 
