@@ -22,7 +22,7 @@ function CategoriesDropdown( {selectedSlug, selectedCategoryId, setSelectedCateg
 
   return (
     <>
-      <div className="ml-5 hidden md:block">
+      <div className="ml-5 mb-3 md:mb-0">
         <DropdownMenu>
           <DropdownMenuTrigger>
             <Button variant="secondary" className="md:w-45 lg:w-50 h-10 lg:h-12 ">

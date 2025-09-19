@@ -9,6 +9,7 @@ import RootLayout from "./layouts/root.layout";
 import PricingPage from "./pages/pricing.page";
 import AboutPage from "./pages/about.page";
 import FoodsPage from "./pages/foods.page";
+import CartPage from "./pages/cart.page";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/foods" element={<FoodsPage />} />
+          <Route path="/cart" element={<CartPage />} />
         </Route>
         <Route path="/sign-in" element={<SignInPage />} />
         <Route path="/sign-up" element={<SignUpPage />} />
