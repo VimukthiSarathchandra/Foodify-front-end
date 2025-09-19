@@ -4,6 +4,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "./ui/button";
 import { products, categories } from "@/data";
 import { useState, useEffect } from "react";
+import FoodsDetails from "./FoodsDetails";
 
 type Product = {
   _id: string;
@@ -206,7 +207,9 @@ function MenuProductItem() {
               </p>
             </div>
             <div className="gap-5 flex justify-end ">
-              <Button variant={"outline"}>See More</Button>
+              <FoodsDetails product={selectedProduct}>
+                <Button variant={"outline"}>See More</Button>
+              </FoodsDetails>
               <Button>ADD ${selectedProduct ? selectedProduct.price : "40"}</Button>
             </div>
           </div>

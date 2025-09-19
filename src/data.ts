@@ -131,7 +131,7 @@ const products: Product[] = [
       "https://www.allrecipes.com/thmb/CfocX_0yH5_hFxtbFkzoWXrlycs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-12720-grilled-salmon-i-VAT-4x3-888cac0fb8a34f6fbde7bf836850cd1c.jpg"
     ],
     name: "Grilled Salmon",
-    price: 50,
+    price: 50, 
     stripePriceId: "price_sea_1",
     description: "Fresh grilled salmon served with lemon butter sauce.",
     ingredients: "Salmon, Lemon, Garlic, Butter, Herbs",
