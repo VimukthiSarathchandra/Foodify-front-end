@@ -1,4 +1,3 @@
-import { HandPlatter, Star, Citrus } from "lucide-react";
 import {
   Card,
   CardDescription,
