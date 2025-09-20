@@ -4,7 +4,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Star, Citrus } from "lucide-react";
+import { Star } from "lucide-react";
 import { Button } from "./ui/button";
 
 function PricingCommitment() {
