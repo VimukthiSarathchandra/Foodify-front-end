@@ -29,7 +29,7 @@ function Footer() {
                 Pricing
               </Link>
               <Link
-                to="/menus"
+                to="/foods"
                 className="text-[#59423C] hover:text-[#FE724C] text-sm"
               >
                 Menus
